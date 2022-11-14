@@ -1,0 +1,17 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+{% load static %}
+<link href="{% static 'portfolio/style.css' %}" rel="stylesheet" type="text/css">
+<h2 class="h1-title home_h1-title">I'm written: {{ blogs.count }} article.</h2>
+
+{% for blog in blogs %}
+
+<a href="{% url 'blog:detail' blog.id %}" style="text-decoration: none;"><h2 class="all_blogs_h2">{{ blog.title }}</h2></a>
+<h5 class="home_description-text fw">{{ blog.date|date:'d m Y' }}</h5>
+<p class="home_description-text">{{ blog.description|truncatechars:100 }}</p>
+<br>
+<br>
+{% endfor %}
+
+{% endblock %}

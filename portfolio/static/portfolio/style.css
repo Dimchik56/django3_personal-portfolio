@@ -1,0 +1,62 @@
+.h1-title{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.home_h1-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home_img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    display: block;
+}
+
+.line{
+    width: calc(100% - 80px); 
+    height: 1px; 
+    margin: 30px auto;
+    background-color: gray; 
+}
+
+.home_project-title{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.home_description-text{
+    width: fit-content;
+    max-width: 600px;
+    margin: 15px auto;
+    display: block;
+}
+
+.fw{
+    font-weight: 100;
+}
+
+.home_project-img{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.home_project-link{
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.home_content{
+    margin-bottom: 30px;
+}
+
+.all_blogs_h2{
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+}
